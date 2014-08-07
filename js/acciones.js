@@ -18,6 +18,12 @@ audio.preoladFX('la','audio/A.mp3',function (msg) {},
 function(msg){alert ('error: '+ msg);});
 audio.preoladFX('si','audio/B.mp3',function (msg) {},
 function(msg){alert ('error: '+ msg);});
+$ ('.nota').bind('touchstart',function (e) {
+	$(this).addClass('tocada');
+	audio.play($(this).attr('id'));
+}).bind('touched',function(e){
+	$(this).removeClass('tocada');
+});
 
 
 
