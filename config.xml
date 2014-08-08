@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Ejemplo de plug in </name>
+    <name>Piano</name>
 
     <description>
         Ejemplo para utilizar Plugins
@@ -16,11 +16,14 @@
     <preference name="phonegap-version" value="3.1.0" />
 	
     <author href="https://build.phonegap.com" email="support@phonegap.com">
-        omar flores nieves
+       Esmeralda Morales Castillo
     </author>
-	<preference name= "orientation" value ="landscape"/>
+	
 
 		<gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
 <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
 <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0"/>
+
+<preference name="orientation" value="landscape"/>
+
 </widget>
